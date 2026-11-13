@@ -4,7 +4,7 @@
 
 An interactive software engineering portfolio by **Michael Mochulla**, independent developer of Atheur. Explore a safe, standalone reconstruction of the command center while the original engine and decision logic remain proprietary.
 
-**Interactive demo:** GitHub Pages deployment is being configured. The intended address is https://mjmochulla-bot.github.io/atheur-public-showcase/ — verify the successful deployment before sharing.
+**[Launch the interactive demo](https://mjmochulla-bot.github.io/atheur-public-showcase/)** — public, browser-only and entirely synthetic.
 
 ## What you can try
 
@@ -51,7 +51,7 @@ Refresh resets the session. Production CSP disables network connections; develop
 
 ## Deployment
 
-The manual [Pages workflow](.github/workflows/pages.yml) runs tests, a build and a source/history scan. Configure Pages to use GitHub Actions, set repository variable `PUBLIC_RELEASE_APPROVED=true`, then run it with `PUBLISH-SYNTHETIC-SHOWCASE`. Only `dist` is deployed. See [publication notes](docs/PUBLISHING.md).
+The manual [Pages workflow](.github/workflows/pages.yml) runs tests, a build and a source/history scan. Configure Pages to use GitHub Actions and run it with `PUBLISH-SYNTHETIC-SHOWCASE`. Only `dist` is deployed. See [publication notes](docs/PUBLISHING.md).
 
 ## Intellectual property and simulation limits
 
